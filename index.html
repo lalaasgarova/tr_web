@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TraMenta</title>
+    <link rel="stylesheet" href="resourses/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="resourses/css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/fonts/glyphicons-halflings-regular.ttf">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#4a64ae">
+    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-light">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+        <img alt="Brand" src="resourses/img/tramenta_logo.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" id="navBarSearchForm">
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for courses">
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-info"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <div class="navbar-form navbar-left">
+            <button type="submit" class="btn btn-default btn-hide">Become a mentor/consultant</button>
+      </div>
+      <div class="navbar-form navbar-left">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-success">Login</button>
+      </div>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-light" id="navbar2">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+        <img alt="Brand" src="resourses/img/tramenta_logo.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" id="navBarSearchForm">
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for courses">
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-info"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <div class="navbar-form navbar-left">
+            <button type="submit" class="btn btn-default btn-hide">Become a mentor/consultant</button>
+      </div>
+      <div class="navbar-form navbar-left">
+            <a href="#signup"><button type="submit" class="btn btn-primary">Sign Up</button></a>
+            <a href="#login"><button type="submit" class="btn btn-success">Login</button><a>
+      </div>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="resourses/img/carousel1.jpg">
+        <div class="carousel-caption carousel-caption-right">
+          <h2 class="text-carousel-right">Find a perfect mentor or a consultant for yourself with a single click.<br>You do not need to leave home for it now.</h2> 
+          <a href="#"><button type="button" class="btn btn-find button-carousel">I need a mentor/consultant</button></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="resourses/img/carousel2.png">
+        <div class="carousel-caption carousel-caption-left">
+          <h2 class="text-carousel-left">Find people to learn and make<br>projects together</h2> 
+          <a href="#"><button type="button" class="btn btn-learn button-carousel">Learn/create together</button></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="resourses/img/carousel3.jpg">
+<!--         <form class="carousel-form form-inline" id="navBarSearchForm">
+            <div class="input-group form-group row">
+            <input type="text" class="form-control input-carousel" placeholder="Search for courses" style="
+    margin-top: 0px;">
+            <div class="input-group-btn">
+              <button type="submit" class="btn btn-info search-button-carousel" style="
+    margin-top: 0px;border-top-width: 0px;"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+            </div>
+        </form> -->
+            <form class="" id="searchForm">
+            <div class="form-group col-xs-6 col-xs-offset-3 vcenter">
+              <div class="input-group input-group-lg center-block-form">
+                <input type="text" class="form-control" placeholder="Search for courses">
+                <span class="input-group-addon" style="position: relative; z-index: 1;"><i class="glyphicon glyphicon-search"></i></span>
+              </div>
+            </div>
+            </form>
+      </div>
+
+      <div class="item">
+        <img src="resourses/img/carousel4.jpg">
+        <div class="carousel-caption carousel-caption-center">
+          <h2 class="text-carousel-center">Become a mentor or<br>a consultant right now</h2> 
+          <a href="#"><button type="button" class="btn btn-default button-carousel">Become a mentor/consultant</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<div class="section section-do" id="whatwedo"> 
+     <div class="container container-text"> 
+        <div class="col-md-8 col-md-offset-2 text-center"> 
+            <h2 class="title text-center text-special">What you can do in TraMenta</h2> 
+            <div class="space-50"></div> 
+        </div> 
+        <div class="container-fluid"> 
+            <div class="col-md-4 text-center"> 
+                    <div> 
+                        <img class="icon-img" src="resourses/img/brain.jpg">
+                        <h4 class="text-center text-special info-title">Learn</h4> 
+                        <h5 class="desc text-center text-special">TraMenta is a platform<br>which will help you get knowledge<br>in IT and Engineering </h5> 
+                    </div> 
+            </div> 
+            <div class="col-md-4 text-center"> 
+                    <div> 
+                        <img class="icon-img" src="resourses/img/teacher.jpg">
+                        <h4 class="text-center text-special info-title ">Educate</h4> 
+                        <h5 class="desc text-center text-special">TraMenta is a platform<br>which will help you get knowledge<br>in IT and Engineering</h5> 
+                    </div> 
+            </div> 
+            <div class="col-md-4 text-center"> 
+                <div> 
+                    <img class="icon-img" src="resourses/img/bag.jpg">
+        <h4 class="info-title text-center text-special">Work</h4> 
+        <h5 class="desc text-center text-special">TraMenta is a platform<br>which will help you find people to implement<br>your IT and Engineering projects with<br>and learn together with</h5> 
+</div> 
+</div> 
+ </div> 
+ </div> 
+ </div>
+
+        <div class="col-md-8 col-md-offset-2 text-center"> 
+            <h2 class="title text-center text-special info-title" style="font-weight: 200">The most popular courses</h2> 
+            <div class="space-50"></div> 
+        </div> 
+<div class="container">
+    <div class="container-fluid container-courses mx-auto"> 
+        <div class="row">
+            <a href="#" class="btn-info2">
+                <div class="card col-md-3 text-center"> 
+                    <div> 
+                        <img class="card-img-top icon-img" src="resourses/img/js-logo.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">JavaScript<br>Basics</h5>
+                            <hr />
+                            <a href="#" class="btn btn-info2" style="margin-left: 0">Course page</a>
+                          </div>
+                    </div> 
+            </div>
+            </a> 
+            <a href="#" class="btn-info2">
+            <div class="card col-md-3 text-center"> 
+                    <div> 
+                        <img class="card-img-top icon-img" src="resourses/img/html-logo.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">HTML 5<br>Basics</h5>
+                            <hr />
+                            <a href="#" class="btn btn-info2" style="margin-left: 0">Course page</a>
+                          </div>
+                    </div> 
+            </div>
+            </a>
+            <a href="#" class="btn-info2"> 
+            <div class="card col-md-3 text-center"> 
+                <div> 
+                    <img class="card-img-top icon-img" src="resourses/img/css-logo.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">CSS 3<br>Basics</h5>
+                        <hr />
+                        <a href="#" class="btn btn-info2" style="margin-left: 0">Course page</a>
+                      </div>
+                </div> 
+            </div>
+            </a> 
+        </div> 
+    </div>
+</div>
+
+
+<footer class="container-fluid bg-blue py-5">
+<div class="container">
+   <div class="row row-footer">
+      
+         <div class="row row-footer">
+            <div class="col-md-4 ">
+               <div class="logo-part">
+                  <a href="#">
+                  <img src="resourses/img/tramenta_logo.png" class="w-50 logo-footer">
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-4 px-4">
+               <p> Contact Us</p>
+               <a class="email" href="#">loremipsum@gmail.com</a>
+            </div>
+  <div class="col-md-3">
+         <div class="row row-footer">
+            <div class="col-md-4 px-4">
+            </div>
+            <div class="col-md-6 ">
+               <div class="social">
+                  <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+                  <a href="#"><i class="fab fa-twitter icon"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      
+   </div>
+</div>
+
+</footer>
+
+<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript">(function ($) {
+  $(document).ready(function(){
+    // hide .navbar first
+    $(".navbar-fixed-top").hide();
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 50) {
+                $('.navbar-fixed-top').fadeIn();
+            } else {
+                $('.navbar-fixed-top').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));</script>
+  <script type="text/javascript">
+      (function ($) {
+  $(document).ready(function(){
+    // hide .navbar first
+    $('#openBtn').click(function () {
+    $('#myModal').modal({
+            show: true
+        })
+    });
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 50) {
+                $('.navbar-fixed-top').fadeIn();
+            } else {
+                $('.navbar-fixed-top').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.js"></script>
+ 
+  <script src="angularApp.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.jumbotron {
+  background-image: url("resources/img/top_background.png");
+  background-size: 100% 100%;
+  color: #b0bec5;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1400px) {
+  .carousel-caption{
+    top: 10%;
+      font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .carousel-caption{
+		top: 10%;
+     	font-size: 42px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .carousel-caption{
+		top: 10%;
+     	font-size: 42px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .carousel-caption{
+	top: 4%;
+	font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-caption{
+	top: 4%;
+	font-size: 30px;
+  }
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.parallax-container {
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  /*font-family: "Roboto Slab", serif;
+  font-size: 30px;*/
+}
+section.module p {
+  margin-bottom: 40px;
+  /*font-size: 16px;
+  font-weight: 300;*/
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding:0;
+  background-color: rgba(0,0,0,0.01);
+}
+section.module.content:last-child {
+  margin-bottom: 60px;
+}
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+/*  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;*/
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
+section.module.parallax-1 {
+  background-image: url("resourses/img/top_background.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.8);
+  background-blend-mode: darken;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    /*font-size: 20px;*/
+  }
+  section.module.parallax {
+    padding: 300px 0;
+  }
+  section.module.parallax h1 {
+    /*font-size: 96px;*/
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    /*
+    */
+  }
+}
+/*footer*/
+.footer .container-fluid {
+  height: auto;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}
+footer .container-fluid a {
+  display: inline-block;
+  color: #ddd;
+  padding-left: 1em;
+ 
+}
+footer .container-fluid p {
+  display: inline-block;
+  color: #ddd;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+@media(max-width: 768px){
+    .col-md-4 {
+      text-align: center;
+      line-height: 30px;
+  }
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+@media(min-width: 768px){
+/*.carousel-caption {
+    bottom: 40%;
+    position: absolute;
+     top: 10%;  
+    bottom: initial;
+}*/
+}
+
+.card {
+	border: 1px solid rgba(0,0,0,0.03);
+}
+.card-img-top {
+    width: 16vw;
+    height: 14vw;
+}
+ .card-title {
+ 	text-align: left;
+ }
+
+ .glyphicon-star:before {
+  content: "\e006";
+  color: #4a64ae;
+}
+.glyphicon-star-empty:before {
+  content: "\e007";
+  color: #4a64ae;
+}
+
+.btn-success {
+	    border-radius: 50px;
+    line-height: 16px;
+}
+
+@media (max-width: 600px){
+
+.card-img-top {
+    width: 48vw;
+    height: 32vw;
+    }
+}
+
+@media (min-width: 992px){
+.col-md-3 {
+    width: 20vw;
+}
